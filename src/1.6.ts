@@ -17,3 +17,9 @@ const rollSquare: number[] = rollNumber.map(
   (roll: number): number => roll * roll
 );
 console.log(rollSquare);
+
+function mul(...num: number[]) {
+  num.forEach((element) => console.log(`${element}`));
+}
+
+mul(2, 4, 5);
